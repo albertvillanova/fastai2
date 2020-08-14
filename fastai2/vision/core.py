@@ -8,6 +8,7 @@ __all__ = ['Image', 'ToTensor', 'imagenet_stats', 'cifar_stats', 'mnist_stats', 
 # Cell
 from ..torch_basics import *
 from ..data.all import *
+from ..data.external import *
 
 from PIL import Image
 

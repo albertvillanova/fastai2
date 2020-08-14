@@ -6,6 +6,7 @@ __all__ = ['TabularLearner', 'tabular_learner']
 from ..basics import *
 from .core import *
 from .model import *
+from .data import *
 
 # Cell
 @log_args(but_as=Learner.__init__)
