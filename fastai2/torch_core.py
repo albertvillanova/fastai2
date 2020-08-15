@@ -17,8 +17,6 @@ __all__ = ['progress_bar', 'master_bar', 'subplots', 'show_image', 'show_titled_
 from .imports import *
 from .torch_imports import *
 
-from PIL import Image
-
 # Cell
 #nbdev_comment _all_ = ['progress_bar','master_bar']
 
